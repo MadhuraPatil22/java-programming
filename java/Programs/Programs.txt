@@ -1,0 +1,104 @@
+PROGRAM 1:
+
+import java.util.Scanner;
+public class Marks {
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Enter the marks of first subject : ");
+    double s1=scanner.nextDouble();
+    
+    System.out.println("Enter the marks of second subject : ");
+    double s2=scanner.nextDouble();
+    
+    System.out.println("Enter the marks of third subject : ");
+    double s3=scanner.nextDouble();
+    
+    System.out.println("Enter the marks of fourth subject : ");
+    double s4=scanner.nextDouble();
+    
+    System.out.println("Enter the marks of fifth subject : ");
+    double s5=scanner.nextDouble();
+    
+    double per = (((s1+s2+s3+s4+s5)/500)*100);
+    
+    //System.out.println("The Percentage is: ",per);
+      System.out.println("The sum is: " + per);
+    
+    scanner.close();
+}
+}
+
+
+*************************************************************************
+
+PROGRAM 2
+
+import java.util.Scanner;
+public class Marks {
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Enter the fiest number : ");
+    double s1=scanner.nextDouble();
+    
+    System.out.println("Enter the second number : ");
+    double s2=scanner.nextDouble();
+    
+    System.out.println("Enter the third number : ");
+    double s3=scanner.nextDouble();
+      double per = (s1+s2+s3);
+       scanner.close();
+}
+}
+
+************************************************************************
+
+PROGRAM 3
+
+import java.util.Scanner;
+public class KiloToMiles{
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Enter the distance in kilometers : ");
+    double s1=scanner.nextDouble();
+    
+    double miles = s1*0.6213;
+     
+     System.out.println(s1 +" kilometres equal to " + miles+" miles is. ");
+    
+    scanner.close();
+}
+}
+
+****************************************************************************
+
+PROGRAM 4: 
+
+import java.util.Scanner;
+public class CGPA{
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Enter the marks for subject 1 : ");
+    double s1=scanner.nextDouble();
+    
+     System.out.println("Enter the marks for subject 2 : ");
+    double s2=scanner.nextDouble();
+    
+     System.out.println("Enter the marks for subject 3: ");
+    double s3=scanner.nextDouble();
+    
+    double cgpa = (s1+s2+s3)/30;
+     
+     System.out.println("Your CGPA is "+cgpa);
+    
+    scanner.close();
+}
+}
+
+********************************************************************************
+
+Program 5:
+
